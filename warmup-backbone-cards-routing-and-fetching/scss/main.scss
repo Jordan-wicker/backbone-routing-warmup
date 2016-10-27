@@ -1,0 +1,23 @@
+@import "./imports/_normalize.scss";
+
+*{ box-sizing: border-box }
+img {
+   width: 100%;
+   display: block;
+}
+
+#app-container{
+
+   .user-card{
+      border: 1px solid #ddd;
+      border-radius: 2px;
+      margin-bottom: 20px;
+      max-width: 400px;
+      margin: 20px auto;
+      padding: 20px;
+      img.profile-img{
+         border-radius: 50%;
+         margin: 10px auto;
+      }
+   }
+}
